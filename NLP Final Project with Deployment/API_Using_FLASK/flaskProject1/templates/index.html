@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>NLP Task</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,300&display=swap');
+
+      body {
+        font-family: 'Nunito', sans-serif;
+      }
+
+      .btn {padding: 5px; font-size: 16pt; margin-right: 20px;}
+      .form-control {padding-left: 20px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right:
+      80px;}
+      .form-control-plaintext {margin-right: 0px; font-size: 20pt; padding-right: 5px; font-weight: bold; width: 180px;}
+      .group-data {
+        border-radius: 20px; 
+        bottom: 0; 
+        margin-bottom: 0px;
+        background-color: #f0f0f0; 
+        box-shadow: 3px 1px 5px #aaa;
+      }
+      .result {
+        background-color: #d1e0d1;
+        color: #0d6b0d;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="group-data p-4 text-center">
+            <h1 class="display-4">NLP Project</h1>
+            <p class="lead">Develop a model that takes a text of an address and verify if this address is in the Cairo governorate or not.</p>
+            <hr>
+            <form method="POST">
+              <div class="form-group mt-4">
+                <label for="text-seq" class="mr-3 text-left w-100">Enter Your Text</label>
+                <input name="text-to-predict" type="text" class="form-control w-100" id="text-seq" placeholder="Enter Your Text Here">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2 w-100">Predict</button>
+              
+              <div class="get-result mt-3 d-none">
+                <p class="text-left"><b>Your Result</b></p>
+                <div class="result p-3">hjfhf</div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+version: '3'
+
+services :
+  web:
+    build: ./flaskProject1
+    ports:
+      - "8080:8080"

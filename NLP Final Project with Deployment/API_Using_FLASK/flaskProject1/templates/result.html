@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>NLP Task</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,300&display=swap');
+
+      body {
+        font-family: 'Nunito', sans-serif;
+      }
+
+      .btn {padding: 5px; font-size: 16pt; margin-right: 20px;}
+      .form-control {padding-left: 20px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right:
+      80px;}
+      .form-control-plaintext {margin-right: 0px; font-size: 20pt; padding-right: 5px; font-weight: bold; width: 180px;}
+      .group-data {
+        border-radius: 20px;
+        bottom: 0;
+        margin-bottom: 0px;
+        background-color: #f0f0f0;
+        box-shadow: 3px 1px 5px #aaa;
+      }
+      .result {
+        background-color: #d1e0d1;
+        color: #0d6b0d;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+  <center>
+       <h1> Output is
+            <p>{{ label }}</p>
+       </h1>
+        <p>
+            <a href="{{ url_for('project_NLP') }}"> <button>Home</button></a>
+        </p>
+  </center>
+  </body>
+</html>
